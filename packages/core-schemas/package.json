@@ -1,21 +1,39 @@
 {
     "name": "@sovereign-stack/core",
     "version": "0.2.0-alpha.1",
-    "description": "Core TypeScript interfaces and validation for Sovereign Stack",
+    "description": "Canonical primitives for sovereign mandates, events, and receipts",
+    "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "bin": {
+        "sovereign": "./dist/cli/index.js"
+    },
     "files": [
         "dist"
     ],
     "scripts": {
         "build": "tsc",
-        "test": "jest"
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "cli": "node dist/cli/index.js"
     },
     "dependencies": {
-        "canonicalize": "^2.0.0"
+        "@noble/curves": "^1.3.0",
+        "@noble/hashes": "^1.3.3",
+        "canonicalize": "^2.0.0",
+        "uuid": "^9.0.1",
+        "commander": "^12.0.0"
     },
     "devDependencies": {
-        "typescript": "^5.3.3"
+        "@types/node": "^20.10.5",
+        "@types/uuid": "^9.0.7",
+        "typescript": "^5.3.3",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.1"
     },
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hillary-njuguna/sovereign-stack.git",
+        "directory": "packages/core-schemas"
+    }
 }
