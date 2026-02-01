@@ -1,8 +1,8 @@
 {
-    "name": "sovereign-ap2-reference",
+    "name": "sovereign-stack",
     "version": "0.2.0-alpha.1",
     "private": true,
-    "description": "Sovereign AP2 v0.2 Reference Implementation",
+    "description": "Sovereign Stack - A sovereignty-enhancing layer for agentic ecosystems",
     "workspaces": [
         "packages/*"
     ],
@@ -25,11 +25,17 @@
     },
     "keywords": [
         "sovereignty",
-        "ap2",
-        "agent",
-        "payments",
-        "cryptography"
+        "agentic",
+        "mandates",
+        "cryptography",
+        "mcp",
+        "a2a",
+        "privacy"
     ],
-    "author": "Sovereign AP2 Working Group",
-    "license": "Apache-2.0"
+    "author": "Hillary Njuguna",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hillary-njuguna/sovereign-stack.git"
+    }
 }

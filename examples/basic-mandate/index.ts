@@ -6,8 +6,8 @@
 // Note: Run with ts-node after npm install
 // npx ts-node examples/basic-mandate/index.ts
 
-import { MandateBuilder } from '@sovereign-ap2/mandate-engine';
-import { ReceiptChain } from '@sovereign-ap2/receipt-chain';
+import { MandateBuilder } from '@sovereign-stack/mandates';
+import { ReceiptChain } from '@sovereign-stack/receipts';
 
 async function demo() {
     console.log('=== Sovereign AP2 v0.2 Demo ===\n');

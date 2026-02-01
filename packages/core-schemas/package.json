@@ -1,7 +1,7 @@
 {
-    "name": "@sovereign-ap2/core-schemas",
+    "name": "@sovereign-stack/core",
     "version": "0.2.0-alpha.1",
-    "description": "Core TypeScript interfaces and validation for Sovereign AP2",
+    "description": "Core TypeScript interfaces and validation for Sovereign Stack",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [

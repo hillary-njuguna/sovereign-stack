@@ -10,9 +10,9 @@ import type {
     Intent,
     CryptographicConstraints,
     ValidationResult
-} from '@sovereign-ap2/core-schemas';
-import { validateMandateStructure } from '@sovereign-ap2/core-schemas';
-import { SovereignSigner, RevocationChain } from '@sovereign-ap2/crypto-primitives';
+} from '@sovereign-stack/core';
+import { validateMandateStructure } from '@sovereign-stack/core';
+import { SovereignSigner, RevocationChain } from '@sovereign-stack/crypto';
 
 // Base64url encoding utility
 function base64urlEncode(bytes: Uint8Array): string {

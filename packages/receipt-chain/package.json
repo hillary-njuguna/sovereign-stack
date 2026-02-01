@@ -1,7 +1,7 @@
 {
-    "name": "@sovereign-ap2/receipt-chain",
+    "name": "@sovereign-stack/receipts",
     "version": "0.2.0-alpha.1",
-    "description": "Receipt chaining for Sovereign AP2 auditable transactions",
+    "description": "Receipt chaining for Sovereign Stack auditable transactions",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
@@ -12,7 +12,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "@sovereign-ap2/core-schemas": "workspace:*",
+        "@sovereign-stack/core": "workspace:*",
         "@noble/hashes": "^1.3.3",
         "canonicalize": "^2.0.0"
     },
