@@ -1,0 +1,37 @@
+{
+    "name": "@sovereign-stack/adapter-mcp-fs",
+    "version": "0.1.0",
+    "description": "Sovereignty-enforcing adapter for MCP file system tools",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "sovereign-mcp-fs": "./dist/cli/index.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "cli": "node dist/cli/index.js"
+    },
+    "dependencies": {
+        "@sovereign-stack/core": "workspace:*",
+        "commander": "^12.0.0",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.5",
+        "@types/uuid": "^9.0.7",
+        "typescript": "^5.3.3",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.1"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hillary-njuguna/sovereign-stack.git",
+        "directory": "packages/adapter-mcp-fs"
+    }
+}
