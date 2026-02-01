@@ -1,0 +1,30 @@
+{
+    "name": "@sovereign-stack/adapter",
+    "version": "0.2.0-alpha.1",
+    "description": "Sovereignty-enhancing adapter for MCP, A2A, and other agentic tool protocols",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "dependencies": {
+        "@sovereign-stack/core": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.5",
+        "typescript": "^5.3.3",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.1"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hillary-njuguna/sovereign-stack.git",
+        "directory": "packages/adapter"
+    }
+}
