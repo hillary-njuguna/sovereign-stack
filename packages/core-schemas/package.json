@@ -1,0 +1,21 @@
+{
+    "name": "@sovereign-ap2/core-schemas",
+    "version": "0.2.0-alpha.1",
+    "description": "Core TypeScript interfaces and validation for Sovereign AP2",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "dependencies": {
+        "canonicalize": "^2.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    },
+    "license": "Apache-2.0"
+}
